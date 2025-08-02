@@ -1,0 +1,41 @@
+# Site settings
+title:          CodePark
+description:    "欢迎来到Solitern的博客"
+baseurl:        "/tale"
+url:            "https://solifit.github.io"
+
+# Google Analytics
+google_analytics: UA—XXXXXXXX-X
+
+# Author
+author:
+  name:         solitern
+  url:          blog.solitern.cloud
+  email:        solitern@163.com
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  # - jemoji #Uncomment this to allow emoji in your post
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
+
+# Excludes
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+
+# Disqus (Set to your disqus id)
+disqus:         jekyll-tale
