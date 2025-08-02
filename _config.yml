@@ -1,8 +1,8 @@
 # Site settings
 title:          CodePark
 description:    "欢迎来到Solitern的博客"
-baseurl:        "/tale"
-url:            "https://solifit.github.io"
+baseurl:        ""
+url:            "https://blog.solitern.cloud"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
