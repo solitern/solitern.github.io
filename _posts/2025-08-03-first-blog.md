@@ -4,7 +4,6 @@ title:  "我的第一篇博客！"
 author:  "solitern"
 tags:	record
 excerpt_separator: <!--more-->
-sticky:	true
 ---
 既然是第一篇博客，那自然要记录一下第一篇博客诞生的过程。<!--more-->
 
@@ -80,4 +79,3 @@ sticky:	true
 
 - DNS 解析的修改通常需要几分钟到几小时才能在全球范围内生效。你可以喝杯咖啡，耐心等待。
 - 生效后，访问你的个人域名，就能看到你的博客了！
-
